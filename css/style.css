@@ -1,0 +1,606 @@
+/*========START========*/
+
+/*======== Basic setup ========*/
+/*======== Basic setup ========*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    
+}
+
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+ul li{
+    list-style-type: none;
+
+}
+
+h1{
+    font-weight: 600;
+    font-size: 3.5rem;
+     
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    
+    padding: 1.3rem 6.5rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: .3rem;
+    margin-top: 4rem;
+    
+}
+
+
+h2{
+    font-size: 2.4rem;
+}
+/*======== End Basic setup ========*/
+
+
+/*======== START REUSABLE COMPONENTS  ========*/
+/*======== START REUSABLE COMPONENTS  ========*/
+
+.box{
+    display: inline-block;
+    padding: 1rem;
+}
+.box img{
+    height: 15rem;
+    padding: 2rem 0;
+}
+.box h3{
+    color: #fff;
+    text-transform: uppercase;
+    padding: .8rem 0;
+    font-size: 2.2rem;
+
+}
+.box p{
+    color: #fff;
+}
+
+
+
+.row{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+section{
+    padding: 8rem;
+    overflow: hidden;
+}
+ 
+
+/*======== END REUSABLE COMPONENTS  ========*/
+
+
+/*========START HEDER SECTION=========================================*/
+/*========START HEDER SECTION=========================================*/
+header{
+   
+    height: 90vh;
+    position: relative;
+    background:#87509c ;
+    background:linear-gradient(#87509cdc,#87509ce3) , url(../image/bgimg/pexels-carlos-oliva-3586966.jpg) ;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.logo{
+    height: 3.5rem;
+    width: auto;
+    margin-top: 3.5rem;
+    float: left;
+}
+/*--- main navgition ---*/
+.main_nav{
+    float: right;
+    margin-top: 4rem;
+}
+
+.main_nav li{
+    display: inline-block;
+    margin-left: 0;
+    
+
+}
+.main_nav li a{
+    font-size: 1.5rem;
+}
+
+.main_nav li:first-child{
+    margin-left: 0;
+}
+
+.main_nav li a:link,
+.main_nav li a:visited
+{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background:#643a7900 ;
+    padding: .5rem 1.6rem;
+    border-radius: 3px;
+    display: inline-block;
+    transition: 0.3s;
+}
+.main_nav li:hover a:link,
+.main_nav li:hover a:visited
+{
+    
+    background:#643a79d7 ;
+    border-radius: .3rem;
+    
+}
+/*--------sticky-----------*/
+
+.activ{
+    background:#643a79d7 ;
+    border-radius: .3rem;
+}
+
+.hero_text_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+    
+}
+.hero_text_box h2{
+    padding: 8rem 0;
+}
+
+.btn{
+    background: #eb7d4b;
+    padding: 1.5rem 6.5rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    border: .3rem solid #c86a40;
+}
+
+
+
+
+
+/*========END HEDER SECTION========*/
+
+/*=========================START SIRVES SECTION========================================*/
+.sivese_section{
+    background:linear-gradient(#17c2a3d2,#17c2a4) , url(../image/bgimg/pexels-vlada-karpovich-4050284.jpg) ;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center;
+    /*background-attachment: fixed;*/
+    
+    text-align: center;
+    
+}
+.sivese_section p{
+    font-size: 1.8rem;
+}
+.sirvese_heder h2{
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: #fff;
+    padding: 2rem 0;
+    letter-spacing: .8rem;
+
+}
+.sirvese_heder p{
+    width: 50%;
+    margin: auto;
+    color: #fff;
+    
+
+}
+.sirvese_heder h2::after{
+    content: "";
+    display: block;
+    height: .3rem;
+    background: #15ab91;
+    width: 8rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+.teme_heder{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.teme_heder h2{
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: rgb(14, 7, 7);
+    padding: 2rem 0;
+    letter-spacing: .3rem;
+}
+.teme_heder h2::after{
+    content: "";
+    display: block;
+    height: .3rem;
+    background: #aebdb9;
+    width: 8rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+
+
+/*========END SIRVES SECTION========*/
+
+/*========START TEME SECTION====================================================*/
+/*========START TEME SECTION====================================================*/
+.teme_section{
+    background: linear-gradient(#e7f1f8ee ,#e7f1f8e8 ) ,url(../image/bgimg/pexels-valiphotos-589840.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+
+}
+.teme_section p{
+    font-size: 1.8rem;
+}
+.teme_col{
+    text-align: center;
+}
+.teme_col img{
+    height: 20rem;
+    width: 20rem;
+    background-size: cover;
+    border-radius: 50%;
+    margin: 2rem 0;
+    margin-top: 3rem;
+
+}
+.teme_col h2{
+    color: #48494d;
+    padding: 1rem 0;
+    font-size: 2.4rem;
+}
+.teme_col a{
+    color: rgb(12, 184, 214);
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    
+}
+.teme_col p{
+    color: #99a0a5;
+}
+.teme_col i{
+    background: #c3d6e2;
+    padding: .8rem;
+    border-radius: 50%;
+    margin-left: .3rem;
+    margin-top: 2rem;
+    color: #fff;
+    font-size: 2rem;
+}
+.teme_col i{
+    
+    
+    color: #fff;
+}
+.teme_col i:hover{
+     
+    color: rgb(32, 146, 223);
+}
+/*========END TEME SECTION======================*/
+
+/*========START SKILL SECTION====================================================*/
+/*========START SKILL SECTION====================================================*/
+
+.skill_heder{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.skill_heder h2{
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: rgb(68, 65, 65);
+    padding: 2rem 0;
+    letter-spacing: .8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.skill_heder h2::after{
+    content: "";
+    display: block;
+    height: .3rem;
+    background: #aebdb9;
+    width: 8rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+.skile_section h3{
+    color: rgb(41, 40, 40);
+    text-align: center;
+    
+}
+.skile_section .box{
+    margin-top:4rem;
+}
+svg.radial-progress circle{
+    stroke-width: 8;
+}
+svg.radial-progress text{
+    fill:#393939
+}
+svg.web-design circle{
+    stroke: #30bae7;
+}
+
+svg.html-css circle{
+    stroke: #df6c9a;
+}
+
+svg.graphic-design circle{
+    stroke:#15c7a8;
+}
+svg.ui-ux circle{
+    stroke: #eb7f4e;
+}
+
+.skile_section .box{
+    padding: 2.5rem;
+    padding-left: 1rem;
+}
+.skile_section{
+    background: linear-gradient(rgba(255, 255, 255, 0.836),rgba(255, 255, 255, 0.815)),url(../image/bgimg/last.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center;
+    text-align: center;
+}
+.skile_section p{
+    font-size: 1.8rem;
+}
+/*========END TEME SECTION====================*/
+
+
+/*========START PROTPHOLIO SECTION======================================*/
+/*========START PROTPHOLIO SECTION======================================*/
+.portpholio_section{
+    background:linear-gradient(#ffdd99e7,#ffdd99f3), url(../image/bgimg/prot_bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.portpholio_section p{
+    font-size: 1.8rem;
+}
+
+.protpholio_heder h2{
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: rgb(14, 7, 7);
+    padding: 2rem 0;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    
+}
+.protpholio_heder h2::after{
+    content: "";
+    display: block;
+    height: .3rem;
+    background: #ebc985;
+    width: 8rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+.protpholio_heder p{
+    color: #a5926c;
+    line-height: 2.5rem;
+}
+
+.button{
+    margin: 2rem 0;
+    font-size: 1.7rem;
+    color: #ab976f;   
+}
+.button button{
+    padding: .5rem 1.5rem;
+    border: none;
+    border-radius: .5rem;
+    margin-left: 1rem;
+    background: #ebc985;
+    text-transform: uppercase;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+}
+.prot_img img{
+    margin-top: 2rem;
+}
+.prot_img h3{
+    margin: 1.5rem 0;
+    text-transform: uppercase;
+    color: #ab976f;
+    font-size: 2rem;
+}
+.prot_img_last{
+    margin-left: 0rem;
+}
+.prot_button{
+    background-color: #17c2a4;
+    border: none;
+    font-size:1.6rem ;
+    font-weight: 400;
+    margin-top: 4rem;
+    
+}
+/*========END PROTPHOLIO SECTION===============*/
+
+/*========START CLINT SECTION=======================================*/
+/*========START CLINT SECTION======================================*/
+
+.clint_section{
+    background: linear-gradient(#d74680ec,#d74680ec),url(../image/bgimg/watch.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center;
+    
+}
+.clint_section p{
+    font-size: 1.8rem;
+}
+.clint_heder h2{
+        font-weight: 600;
+        font-size: 3.5rem;
+        color: rgb(255, 255, 255);
+        padding: 2rem 0;
+        letter-spacing: .3rem;
+        text-align: center;
+ }
+.clint_heder h2::after{
+        content: "";
+        display: block;
+        height: .4rem;
+        background: #a0335e;
+        width: 8rem;
+        margin: auto;
+        margin-top: 2rem;
+        
+}
+.clint_heder p{
+    color: #fff;
+    text-align: center;
+    
+}
+.clint_img img{
+    height: 8rem;
+    width: 8rem;
+    float: left;
+    margin-right: 6rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+    display: inline-block;
+}
+.clint_reviw {
+    margin-top: 1.5rem;
+  
+}
+.clint_reviw p{
+    color: #fff;
+    font-style: italic;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+.clint_reviw h3{
+    margin-top: 1rem ;
+    color: #fff;
+    font-size: 2rem;
+}
+.clint_reviw span{
+    margin-top: 0rem;
+    color:#fd7779 ;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.clint_3{
+    margin-left: 0;
+}
+.clint_img_mt{
+    margin-top: 5rem;
+}
+
+
+
+/*========END CLINT SECTION==================*/
+
+
+.contact_section{
+    text-align: center;
+    background: #3c5499;
+}
+
+
+
+.contact_heder h2{
+    font-weight: 600;
+    font-size: 3.5rem;
+    color: rgb(255, 255, 255);
+    padding: 2rem 0;
+    letter-spacing: .8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact_heder h2::after{
+    content: "";
+    display: block;
+    height: .4rem;
+    background: rgb(35, 69, 110);
+    width: 8rem;
+    margin: auto;
+    margin-top: 2rem;
+    
+}
+.contact_heder p{
+    color: #fff;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.cootact_button {
+    font-size: 2rem;
+    padding: 1.5rem 8rem;
+}
+.cootact_button:hover{
+    cursor: pointer;
+}
+.contact_section input[type="text"],
+.contact_section input[type="email"],
+.contact_section textarea{
+    background: #273a71;
+    margin: .5rem 0;
+    width: 100%;
+    border: .1rem solid #273a71;
+    border-radius: .5rem;
+    padding: 1.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+   
+}
+
+.contact_section form{
+    margin-top: 4rem;  
+    width: 70%;
+    margin-left: 15%;
+    
+}
+
+.contact_section form ::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+
+
+

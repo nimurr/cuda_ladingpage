@@ -1,0 +1,111 @@
+
+@media only screen and (max-width:1200px){
+   header{
+    height: 60vh;
+   }
+   .row{
+    margin: 0 1.2rem;
+    
+    }
+    .portpholio_section .span_1_of_2{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1024px)
+{
+    .row{
+        margin: 0 1.5rem;
+    }
+    
+    html{
+        font-size: 58%;
+    }
+    h2{
+        font-size: 57%;
+    }
+    header   {
+        
+        height: 60vh;
+        
+    }
+    .portpholio_section .span_1_of_2{
+        width: 100%;
+    }
+    .clint_img {
+        
+        float: none;
+        display: block;
+        height: 15rem;
+        text-align: center;
+        margin-left: 45%;
+    }
+    .clint_section .span_1_of_2{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+}
+@media only screen and (max-width:980px){
+    html{
+        font-size: 50%;
+    }
+    .span_1_of_4{
+        width: 49.2%;
+        margin: 0 auto;
+    }
+    .contact_section .span_1_of_2{
+        width: 100%;
+        margin-top: 0rem ;
+    }
+    .contact_section .span_1_of_2 input{
+        margin: 0rem;
+        
+    }
+    .contact_section .span_1_of_2 input[type="email"]{
+        margin-left: -1.7rem;
+        box-sizing: border-box;
+    }
+    .contact_section .span_1_of_2 input[type="submit"]{
+        margin-top: 8rem;
+    }
+    .contact_section textarea{
+        margin: 0rem 0;
+    }
+    .contact_section .btn{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:778px){
+    html{
+        font-size: 46%;
+    }
+    section .span_1_of_4{
+        width: 100%;
+        display: block;
+        margin-top: 3rem;
+        
+    }
+}
+
+@media only screen and (max-width:778px){
+    html{
+        font-size: 40%;
+    }
+    .prot_img img{
+        width: 100%;
+        
+        margin-left: 0;
+        text-align: center;
+    }
+    .button{
+        margin-top: 2rem;
+    }
+}
+@media only screen and (max-width:360px){
+    .contact_section .span_1_of_2 input[type="email"]{
+        width: 100%;
+        overflow: hidden;
+    }
+}
